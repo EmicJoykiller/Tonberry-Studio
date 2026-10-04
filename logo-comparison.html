@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf9f3">
+  <title>Tonberry Studio — Logo Comparison</title>
+  <style>
+    :root{--ink:#25314a;--paper:#f7f5ee;--muted:#68716f;--line:#e7e4dc;--white:#fffefa}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Avenir Next,Avenir,system-ui,sans-serif}
+    main{max-width:1450px;margin:0 auto;padding:46px 32px 56px}
+    .kicker{font-size:.72rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#60716c}
+    h1{font:500 clamp(2.6rem,5vw,4.5rem)/.98 Georgia,serif;letter-spacing:-.05em;margin:14px 0 14px}
+    .intro{max-width:680px;color:var(--muted);margin:0 0 32px;line-height:1.7}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+    article{overflow:hidden;border:1px solid var(--line);border-radius:22px;background:var(--white)}
+    article img{display:block;width:100%;height:auto}
+    .caption{padding:18px 22px 22px;border-top:1px solid var(--line)}
+    .caption h2{margin:0 0 5px;font:500 1.34rem Georgia,serif}
+    .caption p{margin:0;color:var(--muted);font-size:.85rem}
+    .note{margin-top:25px;color:var(--muted);font-size:.78rem}
+    @media(max-width:900px){.grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:620px){main{padding:32px 18px}.grid{grid-template-columns:1fr;gap:14px}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="kicker">Tonberry Studio · Mascot logo study</div>
+    <h1>Three ways to bring<br>the cats together.</h1>
+    <p class="intro">All three keep the same core idea: your larger white-and-orange cat and the smaller tuxedo cat, curled into a round composition and reaching their paws toward each other.</p>
+    <section class="grid" aria-label="Logo concepts">
+      <article><img src="assets/logo-refined.svg" alt="Option A: the two cats curl together as their tails form the circle and their paws touch"><div class="caption"><h2>A · Tail-made circle</h2><p>The tails complete the round shape; the paws meet in the middle.</p></div></article>
+      <article><img src="assets/logo-option-b.svg" alt="Option B: the cats nuzzle and curl together into a round nest"><div class="caption"><h2>B · Cozy curl</h2><p>A closer cuddle, with their bodies forming a shared nest.</p></div></article>
+      <article><img src="assets/logo-option-c.svg" alt="Option C: the cats sit inside an open circular frame and raise their paws to meet"><div class="caption"><h2>C · Paw-to-paw</h2><p>A clearer high-five moment inside an open, simple circle.</p></div></article>
+    </section>
+    <p class="note">Concept artwork based on your description. Photos of the cats can help refine the orange patches, tuxedo markings, and expressions.</p>
+  </main>
+</body>
+</html>

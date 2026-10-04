@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1560 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Tonberry Studio cat mascot logo concepts</title>
+  <desc id="desc">Three cute anime-inspired logo directions featuring a larger white cat with orange patches and a smaller tuxedo cat.</desc>
+  <defs>
+    <linearGradient id="bluePanel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#315FF1"/><stop offset="1" stop-color="#2447C5"/></linearGradient>
+    <linearGradient id="orangePatch" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFB044"/><stop offset="1" stop-color="#F2783E"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B9E8C8"/><stop offset="1" stop-color="#79C995"/></linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="11" stdDeviation="12" flood-color="#1D2A44" flood-opacity=".10"/></filter>
+    <symbol id="big-cat" viewBox="0 0 210 260" stroke="#26334C" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M55 202C25 207 16 189 22 169c4-15 19-20 29-12 8 7 5 18-4 20" fill="none" stroke="#26334C" stroke-width="19"/><path d="M55 202C25 207 16 189 22 169c4-15 19-20 29-12 8 7 5 18-4 20" fill="none" stroke="#FFFDF8" stroke-width="11"/>
+      <path d="M58 200c-4-30 12-53 39-59 37-9 69 13 76 46l4 48c1 10-6 18-17 18H71c-10 0-16-8-15-18z" fill="#FFFDF8"/>
+      <path d="M91 153c6-11 22-17 38-14 17 3 29 14 35 28l-21 11c-12-9-31-10-47-1z" fill="url(#orangePatch)" stroke="none"/>
+      <path d="M61 183c6-11 17-17 30-17l11 21-2 54H73c-11 0-17-8-16-18z" fill="url(#orangePatch)" stroke="none"/>
+      <path d="M48 80 43 30c0-9 8-12 15-6l35 29c14-6 31-6 46 0l35-28c8-6 16-2 15 8l-5 54c-3 39-24 60-68 61-43 1-65-22-68-58z" fill="#FFFDF8"/>
+      <path d="M47 72 44 31c0-8 6-10 13-5l28 23c-5 10-9 21-9 34-11-7-22-9-29-11z" fill="url(#orangePatch)" stroke="none"/>
+      <path d="M119 53c17-8 38-2 47 9l-5 30c-9 7-21 10-37 7-7-12-9-30-5-46z" fill="url(#orangePatch)" stroke="none"/>
+      <path d="M72 101c9-11 23-11 32-2" fill="none" stroke="#26334C" stroke-width="4"/>
+      <path d="M126 98c10-10 24-9 32 2" fill="none" stroke="#26334C" stroke-width="4"/>
+      <ellipse cx="91" cy="111" rx="8" ry="12" fill="#26334C" stroke="none"/><ellipse cx="145" cy="111" rx="8" ry="12" fill="#26334C" stroke="none"/>
+      <ellipse cx="89" cy="107" rx="2.5" ry="4" fill="#FFFDF8" stroke="none"/><ellipse cx="143" cy="107" rx="2.5" ry="4" fill="#FFFDF8" stroke="none"/>
+      <ellipse cx="68" cy="127" rx="10" ry="5" fill="#F4A19A" stroke="none" opacity=".75"/><ellipse cx="166" cy="127" rx="10" ry="5" fill="#F4A19A" stroke="none" opacity=".75"/>
+      <path d="m111 128 7-5 7 5-7 6z" fill="#E78182" stroke="none"/><path d="M118 134c-2 7-8 9-13 7m13-7c2 7 8 9 13 7" fill="none" stroke="#26334C" stroke-width="3"/>
+      <path d="M67 246v-12m26 12v-13m40 13v-12m28 12v-14" fill="none" stroke="#26334C" stroke-width="4"/>
+    </symbol>
+    <symbol id="tux-cat" viewBox="0 0 170 235" stroke="#26334C" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M45 178c-19-4-27-20-21-36 5-12 18-15 27-6 6 6 4 15-4 18" fill="none" stroke="#26334C" stroke-width="17"/><path d="M45 178c-19-4-27-20-21-36 5-12 18-15 27-6 6 6 4 15-4 18" fill="none" stroke="#FFFDF8" stroke-width="9"/>
+      <path d="M49 178c-1-27 14-44 39-48 25-4 48 12 51 39l2 44c0 9-6 15-15 15H63c-10 0-15-7-14-16z" fill="#202638"/>
+      <path d="M78 137c12 7 29 7 43-1 13 7 17 25 11 40-6 15-18 21-32 21-16 0-29-9-33-24-4-14 0-28 11-36z" fill="#FFFDF8" stroke="none"/>
+      <path d="M47 71 44 25c0-8 7-10 13-5l28 22c12-5 26-5 38 0l28-22c7-5 14-2 13 7l-4 46c-3 34-20 50-56 51-36 1-54-17-57-53z" fill="#202638"/>
+      <path d="M105 43c7 14 8 31 5 50-2 15-10 26-22 31-16-7-25-20-27-39 18-2 31-15 44-42z" fill="#FFFDF8" stroke="none"/>
+      <path d="M71 86c7-8 18-8 25-1m24-1c7-7 17-7 24 1" fill="none" stroke="#202638" stroke-width="4"/>
+      <ellipse cx="83" cy="97" rx="7" ry="10" fill="#26334C" stroke="none"/><ellipse cx="132" cy="97" rx="7" ry="10" fill="#26334C" stroke="none"/>
+      <ellipse cx="81" cy="94" rx="2" ry="3.5" fill="#FFFDF8" stroke="none"/><ellipse cx="130" cy="94" rx="2" ry="3.5" fill="#FFFDF8" stroke="none"/>
+      <ellipse cx="63" cy="111" rx="8" ry="4" fill="#F4A19A" stroke="none"/><ellipse cx="146" cy="111" rx="8" ry="4" fill="#F4A19A" stroke="none"/>
+      <path d="m101 114 6-4 6 4-6 5z" fill="#E78182" stroke="none"/><path d="M107 119c-2 6-7 7-11 5m11-5c2 6 7 7 11 5" fill="none" stroke="#26334C" stroke-width="3"/>
+      <path d="M67 226v-11m24 11v-11m34 11v-11" fill="none" stroke="#FFFDF8" stroke-width="4"/>
+    </symbol>
+  </defs>
+  <rect width="1560" height="1120" fill="#F7F5EE"/>
+  <text x="72" y="78" fill="#25314A" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="5">TONBERRY STUDIO  /  MASCOT LOGO DIRECTIONS</text>
+  <text x="72" y="137" fill="#25314A" font-family="Georgia,serif" font-size="48" letter-spacing="-1.5">Two cats. Three ways to tell the story.</text>
+  <text x="74" y="174" fill="#6A746F" font-family="Arial,sans-serif" font-size="18">Anime-inspired, warm, and designed to stay recognizable on a website, keychain, or tiny profile icon.</text>
+  <!-- Option A -->
+  <g filter="url(#softShadow)"><rect x="64" y="214" width="456" height="830" rx="30" fill="#FFFEFA"/></g>
+  <text x="96" y="265" fill="#E47738" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">01  /  THE STORYBOOK DUO</text>
+  <circle cx="292" cy="487" r="166" fill="#FFF5D6" stroke="#F4C94B" stroke-width="5"/>
+  <circle cx="292" cy="487" r="148" fill="#FFFEFA"/>
+  <path d="M150 536c41-22 76-26 108-20m74 0c32-7 64-2 104 20" fill="none" stroke="#F5D86B" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 11"/>
+  <use href="#big-cat" xlink:href="#big-cat" x="128" y="354" width="205" height="299"/>
+  <use href="#tux-cat" xlink:href="#tux-cat" x="267" y="400" width="170" height="249"/>
+  <path d="M338 438c-7-16-27-16-29 0-2 13 15 23 29 33 14-10 31-20 29-33-2-16-22-16-29 0z" fill="#F17862" stroke="#FFFEFA" stroke-width="4"/>
+  <text x="292" y="730" text-anchor="middle" fill="#26334C" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-size="43" font-weight="800" letter-spacing="1">TONBERRY</text>
+  <text x="292" y="770" text-anchor="middle" fill="#64706F" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="8">STUDIO</text>
+  <line x1="156" y1="809" x2="428" y2="809" stroke="#EAE5D8"/>
+  <text x="292" y="851" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">A warm, keepsake-style mascot pair.</text>
+  <text x="292" y="882" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">Soft badge shape; playful nose boop.</text>
+  <rect x="159" y="930" width="266" height="42" rx="21" fill="#FFF4D3"/>
+  <text x="292" y="957" text-anchor="middle" fill="#8A6810" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">COZY  ·  FRIENDLY  ·  TIMELESS</text>
+  <!-- Option B -->
+  <g filter="url(#softShadow)"><rect x="552" y="214" width="456" height="830" rx="30" fill="#FFFEFA"/></g>
+  <text x="584" y="265" fill="#315FF1" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">02  /  THE PLAYFUL STICKER</text>
+  <path d="M778 324l29 20 37-7 19 30 38 10 5 37 30 25-9 37 17 33-24 29 2 39-35 15-15 36-38-1-29 25-34-17-36 13-24-29-38-8-7-37-30-23 10-37-16-34 24-29 1-39 35-14 17-36 37 2z" fill="url(#bluePanel)" stroke="#25314A" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M652 513c34-55 80-86 126-81 54 6 80 44 115 85" fill="none" stroke="#F9D34E" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 19"/>
+  <use href="#big-cat" xlink:href="#big-cat" x="617" y="358" width="195" height="284" transform="rotate(-9 714 500)"/>
+  <use href="#tux-cat" xlink:href="#tux-cat" x="768" y="414" width="160" height="235" transform="rotate(8 848 530)"/>
+  <circle cx="781" cy="554" r="34" fill="#F1775F" stroke="#FFF5D6" stroke-width="5"/>
+  <path d="M761 558c10-15 31-15 41 0m-36-14 31 29" fill="none" stroke="#FFE6B7" stroke-width="4" stroke-linecap="round"/>
+  <path d="m886 358 9 18 20 2-15 13 4 19-18-10-17 10 3-19-14-13 19-2z" fill="#F6D54F" stroke="#25314A" stroke-width="3"/>
+  <text x="780" y="730" text-anchor="middle" fill="#26334C" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-size="43" font-weight="800" letter-spacing="1">TONBERRY</text>
+  <text x="780" y="770" text-anchor="middle" fill="#64706F" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="8">STUDIO</text>
+  <line x1="644" y1="809" x2="916" y2="809" stroke="#EAE5D8"/>
+  <text x="780" y="851" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">Big expressions and a tumbling yarn ball.</text>
+  <text x="780" y="882" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">Made to pop on socials and stickers.</text>
+  <rect x="653" y="930" width="254" height="42" rx="21" fill="#E5EBFF"/>
+  <text x="780" y="957" text-anchor="middle" fill="#294CC3" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">BOLD  ·  CUTE  ·  HIGH-ENERGY</text>
+  <!-- Option C -->
+  <g filter="url(#softShadow)"><rect x="1040" y="214" width="456" height="830" rx="30" fill="#FFFEFA"/></g>
+  <text x="1072" y="265" fill="#37845B" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">03  /  THE MAKER’S MARK</text>
+  <rect x="1124" y="332" width="288" height="288" rx="54" fill="#E5F4E8" stroke="#26334C" stroke-width="5" transform="rotate(-5 1268 476)"/>
+  <path d="M1164 558c-46-11-62-47-42-73 15-20 42-17 51 2m151 52c44-9 59-43 42-67-14-20-41-16-49 3" fill="none" stroke="#26334C" stroke-width="11" stroke-linecap="round"/>
+  <use href="#big-cat" xlink:href="#big-cat" x="1139" y="348" width="187" height="273"/>
+  <use href="#tux-cat" xlink:href="#tux-cat" x="1263" y="408" width="151" height="221"/>
+  <path d="M1257 364v-24m-13 12h26" stroke="#F07858" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1165 637h207v17h-207z" fill="#26334C"/><path d="M1181 654h175v15h-175z" fill="#80C998"/>
+  <text x="1268" y="730" text-anchor="middle" fill="#26334C" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-size="43" font-weight="800" letter-spacing="1">TONBERRY</text>
+  <text x="1268" y="770" text-anchor="middle" fill="#64706F" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="8">STUDIO</text>
+  <line x1="1132" y1="809" x2="1404" y2="809" stroke="#EAE5D8"/>
+  <text x="1268" y="851" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">Two curious shop cats, at the workbench.</text>
+  <text x="1268" y="882" text-anchor="middle" fill="#57635F" font-family="Arial,sans-serif" font-size="18">A tidy badge that scales down cleanly.</text>
+  <rect x="1140" y="930" width="256" height="42" rx="21" fill="#E4F3E7"/>
+  <text x="1268" y="957" text-anchor="middle" fill="#347A52" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">CRAFT  ·  CHARACTER  ·  CALM</text>
+  <text x="72" y="1090" fill="#77817C" font-family="Arial,sans-serif" font-size="15">Sketch-stage directions based on your description; exact cat markings can be refined from photos.</text>
+</svg>

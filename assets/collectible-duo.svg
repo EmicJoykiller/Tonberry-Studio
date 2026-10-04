@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" fill="none">
+  <defs>
+    <linearGradient id="skinA" x1="265" y1="170" x2="388" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD6A8"/><stop offset="1" stop-color="#D67A52"/></linearGradient>
+    <linearGradient id="skinB" x1="503" y1="155" x2="639" y2="337" gradientUnits="userSpaceOnUse"><stop stop-color="#BDEEDC"/><stop offset="1" stop-color="#538C7B"/></linearGradient>
+    <linearGradient id="jacketA" x1="258" y1="372" x2="434" y2="652" gradientUnits="userSpaceOnUse"><stop stop-color="#FF6758"/><stop offset="1" stop-color="#CB294A"/></linearGradient>
+    <linearGradient id="jacketB" x1="492" y1="372" x2="681" y2="655" gradientUnits="userSpaceOnUse"><stop stop-color="#6A82FF"/><stop offset="1" stop-color="#2E40B6"/></linearGradient>
+    <filter id="shadow" x="122" y="93" width="665" height="771" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#182145" flood-opacity=".25"/></filter>
+  </defs>
+  <ellipse cx="450" cy="808" rx="310" ry="36" fill="#171E42" fill-opacity=".18"/>
+  <g filter="url(#shadow)">
+    <!-- left figure -->
+    <path d="M282 306h91v80h-91z" fill="url(#skinA)"/>
+    <path d="M254 210c0-67 34-109 79-109 48 0 83 42 83 109v43c0 70-33 108-82 108-47 0-80-38-80-108v-43Z" fill="url(#skinA)"/>
+    <path d="M248 233c-10-68 18-129 79-137 65-9 105 37 92 99-20-22-43-37-72-40-43-4-77 25-99 78Z" fill="#2D2E66"/>
+    <path d="M270 251c12-8 24-8 36 0m45 0c11-8 23-8 34 0" stroke="#77473E" stroke-width="6" stroke-linecap="round"/><ellipse cx="287" cy="272" rx="5" ry="8" fill="#182043"/><ellipse cx="368" cy="272" rx="5" ry="8" fill="#182043"/><path d="M310 321c13 12 34 12 48 0" stroke="#A9454B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M267 373c18-17 42-26 67-26s49 9 67 26l53 43-37 122c-4 14-17 24-32 24h-94c-15 0-28-10-32-24l-39-122 47-43Z" fill="url(#jacketA)"/>
+    <path d="m302 358 33 42 35-42 35 30-36 55-33-19-33 19-36-55 35-30Z" fill="#FFF3D8"/><path d="m329 414 6-7h13l6 7-12 31-13-31Z" fill="#FFD249"/>
+    <path d="m270 415-45 93c-11 22 4 48 29 48 13 0 24-7 30-18l39-76-53-47Zm128 1 48 95c11 22-4 48-29 48-13 0-24-7-30-18l-39-77 50-48Z" fill="url(#jacketA)"/>
+    <path d="m278 548 137 0 8 138h-73l-14-92-18 92h-73l33-138Z" fill="#FFD34E"/><path d="M250 682h99l-13 39c-4 12-17 20-30 20h-69c-16 0-26-17-18-31l31-28Zm95 0h95l28 28c12 13 2 31-15 31h-77c-13 0-25-8-29-20l-12-39Z" fill="#2D58DC"/><path d="M239 722h99m111 0h-75" stroke="#FFF4D8" stroke-width="8" stroke-linecap="round"/>
+    <!-- right figure -->
+    <path d="M534 306h91v80h-91z" fill="url(#skinB)"/>
+    <path d="M503 210c0-68 37-110 83-110s83 42 83 110v43c0 71-34 109-83 109s-83-38-83-109v-43Z" fill="url(#skinB)"/>
+    <path d="M494 235c-8-70 22-134 88-140 62-6 100 42 84 102-20-19-42-29-68-29-43 0-77 24-104 67Z" fill="#202C51"/><path d="M509 184c15-38 38-57 70-65m82 22c12 21 14 42 8 65" stroke="#405AAD" stroke-width="15" stroke-linecap="round"/>
+    <path d="M518 251c12-8 24-8 36 0m44 0c12-8 24-8 36 0" stroke="#4B675D" stroke-width="6" stroke-linecap="round"/><ellipse cx="536" cy="272" rx="5" ry="8" fill="#182043"/><ellipse cx="617" cy="272" rx="5" ry="8" fill="#182043"/><path d="M559 321c13 12 34 12 48 0" stroke="#5B5E53" stroke-width="6" stroke-linecap="round"/>
+    <path d="M519 373c18-17 42-26 67-26s49 9 67 26l53 43-37 122c-4 14-17 24-32 24h-94c-15 0-28-10-32-24l-39-122 47-43Z" fill="url(#jacketB)"/>
+    <path d="m554 358 33 42 35-42 35 30-36 55-33-19-33 19-36-55 35-30Z" fill="#E9F1FF"/><path d="m581 414 6-7h13l6 7-12 31-13-31Z" fill="#43C985"/>
+    <path d="m522 415-45 93c-11 22 4 48 29 48 13 0 24-7 30-18l39-76-53-47Zm128 1 48 95c11 22-4 48-29 48-13 0-24-7-30-18l-39-77 50-48Z" fill="url(#jacketB)"/>
+    <path d="m530 548 137 0 8 138h-73l-14-92-18 92h-73l33-138Z" fill="#243654"/><path d="M502 682h99l-13 39c-4 12-17 20-30 20h-69c-16 0-26-17-18-31l31-28Zm95 0h95l28 28c12 13 2 31-15 31h-77c-13 0-25-8-29-20l-12-39Z" fill="#F04B52"/><path d="M491 722h99m111 0h-75" stroke="#FFF4D8" stroke-width="8" stroke-linecap="round"/>
+    <!-- linked hands and small details -->
+    <path d="M437 474c16-11 28-7 41 5l21 18c14 12 12 33-4 43-13 8-29 5-39-6l-24-26-22 25c-10 11-26 14-39 6-16-10-18-31-4-43l21-18c14-12 26-16 42-5Z" fill="#FFC78F"/>
+    <path d="m451 237 8-16 9 16 18 3-13 12 3 18-17-9-16 9 3-18-13-12 18-3Z" fill="#FFD84D"/>
+  </g>
+  <!-- shared display base -->
+  <ellipse cx="450" cy="779" rx="248" ry="36" fill="#88F0BE"/>
+  <path d="M202 779v45c0 24 111 43 248 43s248-19 248-43v-45c-32 21-126 35-248 35s-216-14-248-35Z" fill="#1C936C"/>
+  <ellipse cx="450" cy="779" rx="248" ry="35" fill="#46D39A"/>
+  <path d="M292 783c36 11 93 18 158 18s122-7 158-18" stroke="#B3FFE0" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+</svg>
