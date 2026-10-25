@@ -17,11 +17,11 @@ No `vercel.json`, package manager, or build step is required.
 
 ## Before sharing the live URL
 
-- Add the Instagram and YouTube links after those accounts are ready.
+- Add the YouTube link when that channel is ready; the Instagram profile and enquiry email are configured on the site.
 - Set the social preview image to an absolute live URL once the Vercel domain is assigned.
-- Add an enquiry email or contact form destination when one is available.
+- Add a contact form later if you want visitors to send longer project briefs directly from the site.
 - Replace the concept renders with additional finished-product photos as the portfolio grows.
 
 ## Assets
 
-The `assets` folder contains the portfolio photos and four MP4 clips, alongside the logo and illustration SVGs. The unused MOV clip is not included.
+The `assets` folder contains six portfolio photos, four MP4 clips, the cat logo, full logo artwork, Instagram QR code, and supporting illustration SVGs. The unused MOV clip is not included.

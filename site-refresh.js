@@ -10,23 +10,31 @@
   `;
   document.head.appendChild(style);
   const brandStyle = document.createElement('style');
-  brandStyle.textContent = '.brandmark{display:block;width:42px;height:42px;flex:0 0 42px;object-fit:contain;border-radius:0;background:transparent;transform:none}.footer-brand{display:flex;align-items:center;gap:8px}.footer-brand img{width:27px;height:27px;object-fit:contain}';
+  brandStyle.textContent = '.brandmark{display:block;width:42px;height:42px;flex:0 0 42px;object-fit:cover;border-radius:50%;background:#f8f1df;transform:none}.footer-brand{display:flex;align-items:center;gap:8px}.footer-brand img{width:30px;height:30px;object-fit:cover;border-radius:50%}.hero-logo-card{width:100%;aspect-ratio:1;min-height:0;margin:0;padding:0;overflow:hidden;border:0;border-radius:0;background:transparent;box-shadow:none}.hero-logo-card:before,.hero-logo-card:after{content:none;display:none}.hero-logo-card img{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center;filter:none}.keyring img{width:100%;height:100%;object-fit:cover;border-radius:50%}.connect-grid{grid-template-columns:minmax(0,1fr) 230px}.contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.contact-link{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border:1px solid #ffffff45;border-radius:999px;color:white;font-size:.86rem;font-weight:750;transition:background .18s ease,transform .18s ease}.contact-link:hover{background:#ffffff18;transform:translateY(-2px)}.contact-link span{font-size:1.1rem}.connect-qr{display:grid;justify-items:center;gap:10px;padding:15px;border:1px solid #ffffff35;border-radius:20px;background:#fff;color:#25252c;text-align:center;box-shadow:0 12px 35px #0002}.connect-qr img{display:block;width:min(100%,190px);aspect-ratio:1;object-fit:contain}.connect-qr span{font-size:.75rem;font-weight:750;letter-spacing:.03em}@media(max-width:680px){.connect-grid{grid-template-columns:1fr}.connect-qr{width:min(100%,250px);justify-self:start}.hero-logo-card{min-height:300px}}';
   document.head.appendChild(brandStyle);
   let favicon = document.querySelector('link[rel~="icon"]');
   if (!favicon) { favicon = document.createElement('link'); favicon.rel = 'icon'; document.head.appendChild(favicon); }
-  favicon.href = 'assets/tonberry-cat-mark.svg';
-  favicon.type = 'image/svg+xml';
+  favicon.href = 'assets/tonberry-cat-logo.png';
+  favicon.type = 'image/png';
   document.title = 'Tonberry Studio | Custom 3D Prints, Made Personal';
   const desc = 'Meet Tonberry Studio, an independent Toronto maker creating personalized 3D-printed minis and keychains. Toronto hand delivery and Canada-wide shipping.';
   let description = document.querySelector('meta[name="description"]');
   if (!description) { description = document.createElement('meta'); description.name = 'description'; document.head.appendChild(description); }
   description.content = desc;
+  const setSocialMeta = (property, content) => {
+    let meta = document.querySelector(`meta[property="${property}"]`);
+    if (!meta) { meta = document.createElement('meta'); meta.setAttribute('property', property); document.head.appendChild(meta); }
+    meta.content = content;
+  };
+  setSocialMeta('og:title', document.title);
+  setSocialMeta('og:description', desc);
+  setSocialMeta('og:image', 'assets/tonberry-studio-banner.png');
   document.body.innerHTML = `
     <div id="tonberry-site">
       <a class="skip" href="#main">Skip to content</a>
       <div class="topline"><a href="#expo">Toronto Game Expo · November 7–8, 2026</a> <span aria-hidden="true">&nbsp;·&nbsp;</span> Come say hello and pick up a free keychain</div>
       <header class="header"><div class="wrap nav">
-        <a class="brand" href="#top" aria-label="Tonberry Studio home"><img class="brandmark" src="assets/tonberry-cat-mark.svg" alt=""><span>Tonberry Studio</span></a>
+        <a class="brand" href="#top" aria-label="Tonberry Studio home"><img class="brandmark" src="assets/tonberry-cat-logo.png" alt=""><span>Tonberry Studio</span></a>
         <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
         <nav class="navlinks" aria-label="Main navigation"><a href="#possibilities">What we make</a><a href="#made-here">Made for Canada</a><a href="#process">How it works</a><a href="#faq">FAQ</a><a href="#connect">Connect</a></nav>
         <a class="button" href="#expo">Meet us at the Expo <span class="arrow" aria-hidden="true">↗</span></a>
@@ -52,9 +60,9 @@
           <details><summary>Can I order and pay online right now?</summary><p>Online checkout isn’t set up yet. We’re showcasing the work and meeting future customers in person first; contact channels will be added here as they’re ready.</p></details>
           <details><summary>Are the products made in Canada?</summary><p>Tonberry Studio is an independent Canadian maker based in Toronto. Each piece is made in Canada, with Toronto hand delivery and shipping available across Canada.</p></details>
         </div></div></section>
-        <section class="connect" id="connect"><div class="wrap connect-grid"><div><div class="eyebrow">Your idea belongs here</div><h2 class="display">Let’s make something memorable.</h2><p>We’re building our Instagram, YouTube, and enquiry channels now. Until they’re live, come meet us at Toronto Game Expo and tell us what you’d love to make.</p><p class="fineprint">Social links and direct contact details will appear here once they’re ready.</p></div><a class="button" href="#expo">Meet Tonberry at TGE <span class="arrow" aria-hidden="true">↗</span></a></div></section>
+        <section class="connect" id="connect"><div class="wrap connect-grid"><div class="connect-copy"><div class="eyebrow">Your idea belongs here</div><h2 class="display">Let’s make something memorable.</h2><p>Have an idea for a custom print? Email us or find our latest work on Instagram. We make in Toronto and ship across Canada.</p><div class="contact-links"><a class="contact-link" href="mailto:studiotonberry@gmail.com"><span aria-hidden="true">✉</span>studiotonberry@gmail.com</a><a class="contact-link" href="https://www.instagram.com/tonberrystudio/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">◎</span>@tonberrystudio</a></div></div><a class="connect-qr" href="https://www.instagram.com/tonberrystudio/" target="_blank" rel="noopener noreferrer" aria-label="Open Tonberry Studio on Instagram"><img src="assets/tonberry-instagram-qr.jpeg" alt="Instagram QR code for @tonberrystudio"><span>Scan to visit our Instagram</span></a></div></section>
       </main>
-      <footer class="footer"><div class="wrap footer-inner"><span class="footer-brand"><img src="assets/tonberry-cat-mark.svg" alt="">Tonberry Studio</span><span>Independent 3D creativity from Toronto, for Canada.</span><span class="foot-note">© <span id="year"></span> Tonberry Studio</span></div></footer>
+      <footer class="footer"><div class="wrap footer-inner"><span class="footer-brand"><img src="assets/tonberry-cat-logo.png" alt="">Tonberry Studio</span><span>Independent 3D creativity from Toronto, for Canada.</span><span class="foot-note">© <span id="year"></span> Tonberry Studio</span></div></footer>
     </div>`;
   document.getElementById('year').textContent = new Date().getFullYear();
   const toggle = document.querySelector('.menu-toggle');

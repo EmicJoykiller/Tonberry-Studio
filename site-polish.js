@@ -2,11 +2,13 @@
   const install = () => {
     const style = document.createElement('style');
     style.textContent = `
-      .hero-logo-card{position:relative;display:grid;place-items:center;min-height:360px;margin:0;padding:clamp(18px,3vw,34px);overflow:hidden;border-radius:28px;background:linear-gradient(145deg,#fffaf0 0%,#fff 58%,#edf5ff 100%);box-shadow:0 24px 70px rgba(31,53,91,.12)}
-      .hero-logo-card:before,.hero-logo-card:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
-      .hero-logo-card:before{width:150px;height:150px;right:-52px;top:-52px;background:#ffd451;opacity:.42}
-      .hero-logo-card:after{width:110px;height:110px;left:-42px;bottom:-44px;background:#ff796e;opacity:.28}
-      .hero-logo-card img{position:relative;z-index:1;width:min(100%,480px);max-height:410px;object-fit:contain;filter:drop-shadow(0 14px 20px rgba(39,43,58,.1))}
+      .hero-logo-card{position:relative;display:block;width:100%;aspect-ratio:1;margin:0;padding:0;overflow:hidden;border:0;border-radius:0;background:transparent;box-shadow:none}
+      .hero-logo-card:before,.hero-logo-card:after{content:none;display:none}
+      .hero-logo-card img{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center;filter:none}
+      #tonberry-site .hero{display:block!important}
+      .hero-art{position:relative;width:100%!important;height:auto!important;min-height:0!important;max-width:none!important;display:block!important;overflow:visible!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;isolation:auto!important}
+      .hero-art:before,.hero-art:after{content:none!important;display:none!important}
+      .hero-art>.hero-logo-card{width:100%!important;height:auto!important;aspect-ratio:1!important}
       .keyring img{display:block;width:76px;height:76px;object-fit:contain}
       .tonberry-hello{position:fixed;z-index:10000;right:22px;bottom:20px;display:flex;align-items:center;gap:12px;width:min(330px,calc(100vw - 32px));padding:12px 42px 12px 12px;border:1px solid rgba(36,46,62,.12);border-radius:22px;background:#fffdf8;box-shadow:0 18px 56px rgba(22,35,57,.2);opacity:0;transform:translate3d(115%,0,0);pointer-events:none;transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .35s ease}
       .tonberry-hello.is-visible{opacity:1;transform:translate3d(0,0,0);pointer-events:auto}
@@ -14,18 +16,19 @@
       .tonberry-hello p{margin:0;color:#252b39;font:600 15px/1.35 sans-serif}
       .tonberry-hello p span{display:block;margin-top:4px;color:#657087;font-size:12px;font-weight:500}
       .tonberry-hello button{position:absolute;right:10px;top:8px;width:28px;height:28px;border:0;border-radius:50%;background:#f1f3f8;color:#31394a;font:700 18px/1 sans-serif;cursor:pointer}
-      @media (max-width:600px){.hero-logo-card{min-height:270px;border-radius:22px}.tonberry-hello{right:12px;bottom:12px}}
+      @media (max-width:600px){.hero-art{width:100%!important;min-height:0!important}.hero-logo-card{width:min(100%,440px)!important;margin-inline:auto}.tonberry-hello{right:12px;bottom:12px}}
+      @media (max-width:680px){#tonberry-site .hero-copy{width:100%;min-width:0}#tonberry-site .hero h1{max-width:100%;font-size:clamp(2.25rem,9.5vw,3rem)!important;line-height:1.04;white-space:normal;overflow-wrap:anywhere}#tonberry-site .hero h1 em{display:block;font-size:inherit!important;white-space:normal!important}#tonberry-site .hero-copy>p{width:100%;max-width:100%;font-size:15px;white-space:normal;overflow-wrap:anywhere}#tonberry-site .hero-actions{display:grid!important;grid-template-columns:minmax(0,1fr)!important;flex-wrap:wrap!important;justify-items:start;gap:10px}#tonberry-site .hero-actions .button{max-width:100%;white-space:normal}}
       @media (prefers-reduced-motion:reduce){.tonberry-hello{transition:none}}
     `;
     document.head.append(style);
 
     const hero = document.querySelector('.hero-art');
     if (hero) {
-      hero.innerHTML = '<figure class="hero-logo-card"><img src="assets/logo-refined.svg" alt="Tonberry Studio logo: two cats curled together and touching paws"></figure>';
+      hero.innerHTML = '<figure class="hero-logo-card"><img src="assets/tonberry-studio-banner.png" alt="Tonberry Studio logo artwork featuring the orange and tuxedo cats"></figure>';
     }
 
     document.querySelectorAll('.keyring').forEach((badge) => {
-      badge.innerHTML = '<img src="assets/tonberry-cat-mark.svg" alt="Tonberry Studio cat logo">';
+      badge.innerHTML = '<img src="assets/tonberry-cat-logo.png" alt="Tonberry Studio cats logo">';
     });
 
     document.querySelectorAll('video').forEach((video) => {
@@ -61,7 +64,7 @@
       hello.className = 'tonberry-hello';
       hello.setAttribute('aria-live', 'polite');
       hello.setAttribute('aria-label', 'A greeting from Tonberry Studio');
-      hello.innerHTML = '<img src="assets/tonberry-cat-mark.svg" alt=""><p>Hi, we’re Tonberry!<span>Toronto-made ideas, in 3D.</span></p><button type="button" aria-label="Dismiss cat greeting">×</button>';
+      hello.innerHTML = '<img src="assets/tonberry-cat-logo.png" alt=""><p>Hi, we’re Tonberry!<span>Toronto-made ideas, in 3D.</span></p><button type="button" aria-label="Dismiss cat greeting">×</button>';
       document.body.append(hello);
       let timer;
       let dismissed = false;

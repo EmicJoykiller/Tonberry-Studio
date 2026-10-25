@@ -1,7 +1,7 @@
-/* Add your real contact details before launch. Leave blank until confirmed. */
+/* Public contact links confirmed for the Tonberry Studio site. */
 const SITE_CONTACT = {
-  email: "",
-  instagram: "",
+  email: "studiotonberry@gmail.com",
+  instagram: "https://www.instagram.com/tonberrystudio/",
   youtube: "",
   location: "Toronto, Canada",
 };
@@ -47,7 +47,7 @@ form?.addEventListener("submit", (event) => {
   }
 
   const data = new FormData(form);
-  const subject = encodeURIComponent(`A Tonbery figure idea from ${data.get("name")}`);
+  const subject = encodeURIComponent(`A Tonberry Studio idea from ${data.get("name")}`);
   const body = encodeURIComponent(`Name: ${data.get("name")}\nReply to: ${data.get("email")}\n\n${data.get("idea")}`);
   window.location.href = `mailto:${SITE_CONTACT.email}?subject=${subject}&body=${body}`;
   formNote.textContent = "Your email app should open with your note ready to send. Photos can follow once we reply.";
